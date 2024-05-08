@@ -1,249 +1,250 @@
 body {
-  background-color: rgb(21, 21, 21);
+    background-color: rgb(21, 21, 21);
 }
 
 .tab-buttons {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .right-buttons {
-display: flex;
+  display: flex;
 }
 
 .left {
-margin-right: auto;
+  margin-right: auto;
 }
 
 
 .option-button {
-display: inline-block;
-padding: 5px 15px;
-margin: 10px;
-text-decoration: none;
-font-size: 15px;
-background-color: rgb(174, 183, 241);
-color: rgb(21, 21, 21);
-border-radius: 10px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgb(174, 183, 241);
+  color: rgb(21, 21, 21);
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .option-button:hover {
-background-color: rgb(243, 243, 243);
-color: rgb(225, 81, 144);
+  background-color: rgb(243, 243, 243);
+  color: rgb(225, 81, 144);
 }
 
 .title {
-  text-align: center;
-  color:  rgb(225, 81, 144);
-  font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border: 2px solid rgb(86, 86, 86);
-  margin-top: 15px; 
-  padding: 10px;
-  border-radius: 10px;
+    text-align: center;
+    color:  rgb(225, 81, 144);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(86, 86, 86);
+    margin-top: 15px; 
+    padding: 10px;
+    border-radius: 10px;
 
 }
 
 .container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .container .intro {
-  font-family:Courier New,Courier,monospace;
-  color: ghostwhite;
-  font-size: 15px; 
-  max-width: 770px; 
-  margin: 0 auto; 
-  line-height: 1.8; 
-  text-align: center;
-  margin-left: 10px;
-  margin-top: 10px;
-  
+    font-family:Courier New,Courier,monospace;
+    color: ghostwhite;
+    font-size: 15px; 
+    max-width: 770px; 
+    margin: 0 auto; 
+    line-height: 1.8; 
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    
 }
 
 #myVideo {
-  display: block;
-  margin-left: auto;
-  width: 30%; 
-  height: auto;
-  border: 2px solid  rgb(225, 81, 144);
-  border-radius: 2px;
-  margin-right: 60px;
-  margin-top: -90px;
+    display: block;
+    margin-left: auto;
+    width: 30%; 
+    height: auto;
+    border: 2px solid  rgb(225, 81, 144);
+    border-radius: 2px;
+    margin-right: 60px;
+    margin-top: -90px;
+   
 
 }
 
 .xrterms {
-display: flex;
-justify-content: space-around;
-align-items: flex-start;
-flex-wrap: wrap;
-margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .box {
-position: relative;
-width: 30%;
-height: auto;
-border: 2px solid rgb(225, 81, 144);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: ghostwhite;
-border-radius: 5px;
-font-size: 17px;
-line-height: 1.4;
-text-align: center;
-padding: 10px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  position: relative;
+  width: 30%;
+  height: auto;
+  border: 2px solid rgb(225, 81, 144);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: ghostwhite;
+  border-radius: 5px;
+  font-size: 17px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .content {
-display: none;
-position: absolute;
-top: 100%;
-left: 0;
-width: 95%;
-background-color: rgb(21, 21, 21);
-color: ghostwhite;
-padding: 1px;
-font-family: Courier New, Courier, monospace;
-border-top: none;
-font-size: 12px;
-margin-top: 10px;
-padding: 10px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 95%;
+  background-color: rgb(21, 21, 21);
+  color: ghostwhite;
+  padding: 1px;
+  font-family: Courier New, Courier, monospace;
+  border-top: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .box.show .content {
-display: block;
+  display: block;
 }
 
 .box:hover {
-background-color: rgba(225, 81, 144, 0.1);
+  background-color: rgba(225, 81, 144, 0.1);
 }
 
 .content {
-display: none;
-position: absolute;
-width: 95%;
-color: white;
-padding: 10px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  display: none;
+  position: absolute;
+  width: 95%;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .show .content {
-display: block;
+  display: block;
 }
 
 
 .images {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .placeholder-image1,
 .placeholder-image2,
 .placeholder-image3 {
-width: 20%; 
-height: auto;
-border-radius: 3px;
+  width: 20%; 
+  height: auto;
+  border-radius: 3px;
 }
 
 .button-container {
-text-align: right;
+  text-align: right;
 }
 
 .nextpage-button {
-padding: 5px 15px;
-margin: 10px;
-text-decoration: none;
-font-size: 15px;
-background-color: rgb(174, 183, 241);
-color: rgb(21, 21, 21);
-border-radius: 10px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-float: right;
+  padding: 5px 15px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgb(174, 183, 241);
+  color: rgb(21, 21, 21);
+  border-radius: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: right;
 }
 
 .nextpage-button:hover {
-background-color: rgb(243, 243, 243);
-color: rgb(225, 81, 144);
+  background-color: rgb(243, 243, 243);
+  color: rgb(225, 81, 144);
 }
 
 .collapsible {
-background-color: rgb(42, 42, 42);
-color: ghostwhite;
-cursor: pointer;
-padding: 18px;
-width: 100%;
-border: none;
-text-align: left;
-outline: none;
-font-size: 15px;
-margin-bottom: 20px;
-border-radius: 7px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-transition: background-color 0.3s ease;
+  background-color: rgb(42, 42, 42);
+  color: ghostwhite;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
 }
 
 .ethical {
-padding: 0 18px;
-display: none;
-overflow: hidden;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .collapsible:hover {
-background-color: rgba(225, 81, 144, 0.1);
+  background-color: rgba(225, 81, 144, 0.1);
 }
 
 .active {
-display: block;
+  display: block;
 }
 
 .proscons {
-display: flex;
-justify-content: space-around;
-align-items: flex-start; 
-flex-wrap: wrap;
-margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .benefits,
 .limitations {
-width: 45%; 
-border: 2px solid rgb(225, 81, 144);
-border-radius: 5px;
-margin-bottom: 20px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  width: 45%; 
+  border: 2px solid rgb(225, 81, 144);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .benefits:hover,
 .limitations:hover {
-background-color: rgba(225, 81, 144, 0.1);
+  background-color: rgba(225, 81, 144, 0.1);
 }
 
 .content2 {
-display: none;
-position: absolute;
-top: calc(100% + 10px);
-left: 0;
-width: 95%;
-color: ghostwhite;
-font-family: Courier New, Courier, monospace;
-padding: 10px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-font-size: 13px;
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 95%;
+  color: ghostwhite;
+  font-family: Courier New, Courier, monospace;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  font-size: 13px;
 }
 
 .show .content2 {
-display: block;
+  display: block;
 }

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="author" content="Jadyn Reilly">
+    <title>Project 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  </head>
+  <style>
+      body {
+      background-color: rgb(248, 248, 255);
+      text-align: center;
+      }
+
+      .title {
+      color: rgb(238, 101, 186);
+      }
+
+      .time{
+        color: rgb(50, 51, 100);
+      }
+
+      hr {
+        border-style: solid;
+        color: rgb(62, 72, 139);
+      }
+
+      .summary {
+        text-align: center;
+        color: rgb(51, 50, 100);
+        margin-bottom: 20px;
+      }
+
+      .summary2 {
+        max-width: 1060px;
+        margin: 0 auto;
+        line-height: 1.8;
+        margin-bottom: 0;
+        color: black;
+      }
+
+      .presentation-heading {
+        color: rgb(51, 50, 100); 
+      }
+
+      iframe {
+        width: 55%; 
+        height: 450px; 
+        display: block;
+        margin: 0 auto;
+      }
+
+      .pdflink a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 1px 10px;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(50, 51, 100);
+        color: ghostwhite;
+        border-radius: 7px;
+      }
+
+      .pdflink a:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(252, 94, 199);
+      }
+
+      .triplemod{
+        max-width: 1060px;
+        margin: 0 auto;
+        line-height: 1.8;
+        margin-bottom: 0;
+        color:rgb(50, 51, 100)
+      }
+
+      .triplemod2{
+        color: black;
+
+      }
+
+      .options-container {
+        margin-top: 20px;
+    
+      }
+      .option-button {
+        display: inline-block;
+        padding: 10px 35px;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(50, 51, 100);
+        color: ghostwhite;
+        border-radius: 7px;
+
+      }
+
+      .option-button:hover {
+        background-color: rgb(243, 243, 243);
+        color: rgb(252, 94, 199);
+      }
+      
+      footer {
+        background-color: rgb(255, 176, 229);
+        color: rgb(50, 51, 100);
+        padding: 15px;
+        text-align: right; 
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+  </style>
+
+  <body>
+      <br>
+      <div class="title">
+        <h1><span style='font-size:35px;color: rgb(51, 50, 100);font-family: monospace;'>&#9786;</span> Project 1 Home Page <span style='font-size: 35px; color: rgb(51, 50, 100);font-family: monospace;'>&#9786;</span> </h1>
+        <p class="time" id="datetime" style=text-align:center;></p>
+        <hr>
+      </div>
+
+      <script>
+        var now = new Date();
+
+        var monthNames = ["January", "February", "March", "April", "May", "June",
+                      "July", "August", "September", "October", "November", "December"];
+        var month = monthNames[now.getMonth()];
+
+        var day = now.getDate();
+        var year = now.getFullYear();
+        var time = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+  
+        var dateString = month + " " + day + ", " + year + " at " + time;
+
+        document.getElementById("datetime").innerHTML = dateString;
+
+      </script>
+    
+   
+      <div class="summary">
+                <h3>Project Summary:</h3>
+                <p class="summary2">The continuous evolution of recent developments in technology prompts me to think about the future and what 
+                  that may look like for humanity. My study aims to conduct an analysis of the pros and cons related to the rapid 
+                  technological advances of Artifical Intelligence. For my research topic, I decided to explore the implications 
+                  of Extended Reality (XR) technologies given their potential impact on various aspects 
+                  of society and their relevance to current technological trends. XR technologies are developing quickly and are 
+                  increasingly prevalent in various industries, including education. By examining the benefits and consequences 
+                  of XR technologies, I plan to further an understanding of their role in the shaping of current and future 
+                  human interactions/experiences. Furthermore, I think that researching XR technology provides significant learning 
+                  possibilities emphasizing the impact on societal structures as well as ethical concerns surrounding them. </p>
+            </div>
+
+            <div class="iframe">
+                <h3 class="presentation-heading">Presentation 1:</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe src="https://drive.google.com/file/d/185pKOUbrPeXNkDLNt3C5ytun_q1QTJSF/preview" width="640" height="480"></iframe>
+              </div>
+            </div>
+            <br>
+            <p class="pdflink">Click below to access a PDF of my Powerpoint:<br><a href="Project 1 Presentation.pdf" target="_blank">Powerpoint PDF</a></p>
+            <hr>
+            <div class="triplemod" id="triplemodstrategy">
+            <h3>Triple Modular Strategy:</h3>
+            <p class="triplemod2">For project 1, I will use a combination of different languages and frameworks to deliver research related to my topic. I decided to go with option 1:<br>
+            <b style="color: rgb(238, 101, 186);">Three implementations expressing appearance with a unique combination of language(s) and/or framework(s) 
+              designed to deliver equivalent appearance, behavior, and performance.</b><br>
+            <br> 
+              
+              <h3 style="color: rgb(50, 51, 100);">To View Each Of My Implementations, Simply Click On The Links Below: </h3>
+              <p style="color: black;">To navigate through my HTML and PHP webpages, you'll find a 'Next Page' button at the top of each page to proceed to 
+                the second page of my project. Additionally, there is a button to 'Go Back' to the first page, as well as a button to return to the Home Page to 
+                view my other implementations. However, for my third implementation using React, you'll access all content on a single page (Make sure you scroll all the way down to the bottom of the page to find the rest of the content as there is big break!)
+                 Unfortunately, I encountered
+                 difficulty linking the second page, as well as buttons to go back to my homepage, but the content is still the same. Since React does not function on our class web server, I deployed my React 
+                 App using Netlify, a free platform for hosting webpages. I found assistance with this process on a very helpful webpage, which I am going to reference down below [8].
+                </p>
+
+              <ul>For Implementation 1, I created a webpage using <b style="color: rgb(238, 101, 186);">HTML/CSS/Javascript</b></ul></p>
+              <ul>For Implementation 2, I created a webpage using <b style="color: rgb(238, 101, 186);">PHP</b></ul>
+              <ul>For Implementation 3, I created a webpage using <b style="color: rgb(238, 101, 186);">React</b></ul> 
+            </p>
+            </div>
+
+
+            <div class="options-container">
+              <a href="imp1.html" class="option-button">Implementation 1</a> 
+              <a href="imp2.php" class="option-button">Implementation 2</a>
+              <a href="https://leafy-youtiao-d2f9c3.netlify.app" class="option-button">Implementation 3</a>
+            </div>
+            <br><hr>
+
+              <h3 style="color: rgb(50, 51, 100);">Feedback:</h3>
+           
+              <a href="peer-review-feedback.html" class="option-button">Peer Review Feedback</a>
+         
+
+              <a href="peer-review-responses.html" class="option-button">Peer Review Responses</a>
+        
+        
+
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbzczHLRCFFtr2jGoWTUIPOHradlg3XSO4kqqqJlo0D1Bs8Q/viewform?embedded=true" width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <br><hr>
+
+            <h3 style="color: rgb(50, 51, 100);">Diagram defining the client, server, and interactions of my project:</h3>
+            <img src="diagram.png" width="45%" alt="diagram">
+            <hr>
+
+            <h3 style="color: rgb(50, 51, 100);">References:</h3>
+            <p style="text-align: left;"> <strong>[1]</strong> A. J. A. Alnagrat, R. C. Ismail, S. Z. S. Idrus, and R. M. A. Alfaqi, “A Review of Extended Reality (XR) Technologies in the Future of Human Education: Current trend and Future Opportunity,” Journal of Human Centered Technology, vol. 1, no. 2, pp. 81–96, Aug. 2022, doi: 10.11113/humentech.v1n2.27. Available: <a href="https://humentech.utm.my/index.php/humentech/article/view/27">https://humentech.utm.my/index.php/humentech/article/view/27</a></p>
+
+            <p style="text-align: left;"> <strong>[2]</strong> P. A. Rauschnabel, R. Felix, C. Hinsch, H. Shahab, and F. Alt, “What is XR? Towards a Framework for Augmented and Virtual Reality,” Computers in Human Behavior, vol. 133, p. 107289, Aug. 2022, doi: 10.1016/j.chb.2022.107289. Available: <a href="https://www.sciencedirect.com/science/article/pii/S074756322200111X#sec2">https://www.sciencedirect.com/science/article/pii/S074756322200111X#sec2</a></p>
+
+            <p style="text-align: left;"> <strong>[3]</strong> M. Vasarainen, S. Paavola, and L. Vetoshkina, “A Systematic Literature Review on Extended Reality: Virtual, Augmented and Mixed Reality in Working Life,” International Journal of Virtual Realit, vol. 21, no. 2, pp. 1–28, Oct. 2021, doi: 10.20870/ijvr.2021.21.2.4620. Available: <a href="https://ijvr.eu/article/view/4620">https://ijvr.eu/article/view/4620</a></p>
+
+            <p style="text-align: left;"> <strong>[4]</strong> O. Koroglu, “Ethics in AI, XR and Digitalization: A Systematic Literature review.” in Book of Proceedings. Available: <a href="https://scholar.googleusercontent.com/scholar?q=cache:b3aoS8giY7UJ:scholar.google.com/&hl=en&as_sdt=0,7&scioq=Ethics+in+AI,+XR+and+Digitalization:+A+Systematic+Literature+Review(2023)">https://scholar.googleusercontent.com/scholar?q=cache:b3aoS8giY7UJ:scholar.google.com/&hl=en&as_sdt=0,7&scioq=Ethics+in+AI,+XR+and+Digitalization:+A+Systematic+Literature+Review(2023)</a></p>
+
+            <p style="text-align: left;"> <strong>[5]</strong> S. Qamar, Z. Anwar, and M. Afzal, “A systematic threat analysis and defense strategies for the metaverse and extended reality systems,” Computers & Security, vol. 128, p. 103127, May 2023, doi: 10.1016/j.cose.2023.103127. Available: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167404823000378">https://www.sciencedirect.com/science/article/abs/pii/S0167404823000378</a></p>
+
+            <p style="text-align: left;"> <strong>[6]</strong> S. Vaida, "Pros and Cons of Using Extended Reality in Education," Studii și Cercetări, vol. 69, no. 2, 2023. Available: <a href="https://www.ipsihologie.ro/revistadepsihologie/images/revista_de_psihologie/Revista-de-psihologie-2_2023.pdf#page=67">https://www.ipsihologie.ro/revistadepsihologie/images/revista_de_psihologie/Revista-de-psihologie-2_2023.pdf#page=67</a></p>
+
+            <p style="text-align: left;"> <strong>[7]</strong> S. Luo, D. Zou, and L. Kohnke, “A systematic review of research on xReality (XR) in the English classroom: Trends, research areas, benefits, and challenges,” Computers & Education X Reality, vol. 4, p. 100049, Jan. 2024, doi: 10.1016/j.cexr.2023.100049. Available: <a href="https://www.sciencedirect.com/science/article/pii/S2949678023000430#sec5">https://www.sciencedirect.com/science/article/pii/S2949678023000430#sec5</a></p>
+
+            <p style="text-align: left;"> <strong>[8]</strong> B. Douglas and D. Wells, “How to deploy React Apps in less than 30 Seconds,” Netlify, Jul. 01, 2023. Available: <a href="https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/">https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/</a></p>
+
+            <br><br>
+            <footer>
+              <p>Jadyn Reilly</p>
+          </footer>
+
+     
+          
+</body>
+</html>
